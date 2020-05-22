@@ -1,0 +1,35 @@
+en:
+  config:
+    api:
+      v1:
+        status:
+          ok: "Welcome to SupercheApp Api"
+
+  activerecord:
+  models:
+    store:
+      singular: "Store"
+      plural: "Stores"
+      attributes:
+        name: "Name"
+        description: "Description"
+        image_url: "Url Image"
+    product:
+      singular: "Product"
+      plural: "Products"
+      attributes:
+        name: "Name"
+        price: "Price"
+        image_url: "Url Image"
+  errors:
+    messages:
+      not_found: "Not Found"
+      missing_data: "Missing Data"
+      invalid_credentials: "Invalid Credentials"
+      invalid_token: "Invalid Token"
+      missing_token: "Missing Token"
+      unauthorized: "Unauthorized"
+      account_created: "Account Created"
+      account_not_created: "Account no Created"
+      expired_token: "Expired Token"
+      invalid_validations: "Invalid validations"
